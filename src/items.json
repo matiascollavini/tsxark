@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Dino T-Rex",
+      "description": "Un depredador impresionante y feroz, ideal para conquistar territorios y enfrentarte a cualquier amenaza en Ark.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Base Fortificada",
+      "description": "Construye una base resistente y segura que protegerá tus recursos y dinos de los ataques más peligrosos.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Montura para Argentavis",
+      "description": "Equipa a tu Argentavis con esta montura robusta para explorar las alturas y transportar grandes cargas.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Armadura Tek Completa",
+      "description": "La armadura más avanzada para resistir cualquier daño y explorar el entorno de manera eficiente.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Cañón de asedio",
+      "description": "Destruye estructuras enemigas y domina el campo de batalla con este poderoso cañón de asedio.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Espada Épica",
+      "description": "Una espada de alta calidad que te ayudará a derrotar enemigos con estilo y eficacia.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Generador de Energía Tek",
+      "description": "Proporciona energía constante a tu base con esta avanzada tecnología Tek.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Yate Motor",
+      "description": "Explora los océanos con velocidad y estilo a bordo de este yate bien equipado.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Estación de Cría Avanzada",
+      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "image": {
+        "src": "/producto.jpeg"
+      }
+    }
+  ]
+}
