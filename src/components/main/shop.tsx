@@ -1,60 +1,38 @@
+import { Products } from "@/utils/types";
+import SearchInput from "../custom-ui/search";
+import CheckboxFilter from "../ui/custom-checkbox";
 import json from "@/items.json"
-import { Products } from "@/utils/types"
-import ProductCard from "@/components/main/product-card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card"
-import CheckboxFilter from "../ui/custom-checkbox"
+import { normalizeString } from "@/utils/normalize-string";
+import ProductCard from "./product-card";
 
-export default function Shop () {
+export default function Shop ({ query } : { query: string }) {
   const products: Products[] = json.products
+  const filteredProducts = products.filter((product: Products) => 
+    normalizeString(product.title).includes(normalizeString(query))
+  )
   return (
-    <section className="flex flex-col justify-center items-center gap-12">
-      <Tabs defaultValue="shop">
-        <TabsList className="w-full">
-          <TabsTrigger className="w-full" value="shop">Tienda</TabsTrigger>
-          <TabsTrigger className="w-full" value="donate">Donaciones</TabsTrigger>
-        </TabsList>
-        <TabsContent className="mt-12" value="shop">
-          <div className="grid grid-cols-4 gap-6">
-            <div className="col-span-1 border-r pr-4">
-              <h1 className="mb-4 font-medium">Filtrar por categoria</h1>
-              <FilterCard />
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 col-span-3">
-              {products.map((product: Products) => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
+    <div className="flex flex-col gap-6 min-h-screen">
+      <SearchInput name="q" placeholder="Buscar producto..." />
+      <div className="grid grid-cols-4 gap-6">
+        <div className="col-span-1 border-r pr-4">
+          <h1 className="mb-4 font-medium">Filtrar por categoria</h1>
+          <FilterCard />
+        </div>
+        {filteredProducts.length > 0 ?
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 col-span-3">
+            {filteredProducts.map((product: Products) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
           </div>
-        </TabsContent>
-        <TabsContent className="mt-12" value="donate">
-          <div className="w-full grid grid-cols-3 gap-6">
-            <BillingCard 
-              title="Silver"
-              titleClassName='text-gray-400'
-              description={[{ desc: <p><span className="font-semibold text-white">150</span> puntos cada <span className="font-semibold text-white">10k</span> puntos</p> }, { desc: <p><span className="font-semibold text-white">2</span> dino elección <span className="font-semibold text-white">55</span> puntos</p> }, { desc: <p>Comando para pintar dinos</p> }]}
-              price="5"
-            />
-            <BillingCard 
-              title="Gold"
-              titleClassName='text-yellow-400'
-              description={[{ desc: <p><span className="font-semibold text-white">500</span> puntos cada <span className="font-semibold text-white">10k</span> puntos</p> }, { desc: <p><span className="font-semibold text-white">2</span> dino elección <span className="font-semibold text-white">55</span> puntos</p> }, { desc: <p>Comando para pintar dinos</p> }]}
-              price="15"
-            />
-            <BillingCard 
-              title="Platinum"
-              titleClassName='text-blue-400'
-              description={[{ desc: <p><span className="font-semibold text-white">150</span> puntos cada <span className="font-semibold text-white">10k</span> puntos</p> }, { desc: <p><span className="font-semibold text-white">2</span> dino elección <span className="font-semibold text-white">55</span> puntos</p> }, { desc: <p>Comando para pintar dinos</p> }]}
-              price="30"
-            />
+        : 
+          <div className="flex col-span-3 justify-center items-center">
+            <span>No hay productos disponibles...</span>
           </div>
-        </TabsContent>
-      </Tabs>
-    </section>
+        }
+      </div>
+    </div>
   )
 }
-
-
 
 function FilterCard () {
   return (
@@ -76,28 +54,5 @@ function FilterCard () {
         <span className="text-xs">4</span>
       </div>
     </div>
-  )
-}
-
-function BillingCard ({ title, description, price, titleClassName } : { title: string, description: { desc: React.ReactElement }[], price: string, titleClassName?: string }) {
-  return (
-    <Card>
-      <CardHeader>
-        <CardTitle className={titleClassName}>{title}</CardTitle>
-        <CardDescription className="flex flex-col gap-1">
-          {description.map((item, index) => (
-            <div key={index}>{item.desc}</div>
-          ))}
-        </CardDescription>
-      </CardHeader>
-      <CardContent>
-        <span className="text-5xl font-bold">${price}</span><span className="text-xs">/usd</span>
-      </CardContent>
-      <CardFooter>
-      <button className="w-full bg-white text-black rounded flex justify-center items-center py-3 px-4 gap-2 transition hover:opacity-80">
-        Donar
-      </button>
-      </CardFooter>
-    </Card>
   )
 }

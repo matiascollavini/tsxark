@@ -1,12 +1,13 @@
 import Hero from "@/components/main/hero";
-import Shop from "@/components/main/shop";
+import Main from "@/components/main/main";
 
-export default function Page () {
+export default async function Page ({ searchParams } : { searchParams: { q?: string } }) {
+  const { q } = await searchParams
   return (
     <main>
       <Hero />
       <section className="max-w-screen-2xl mx-auto my-20">
-        <Shop />
+        <Main query={q || ''} />
       </section>
     </main>
   );

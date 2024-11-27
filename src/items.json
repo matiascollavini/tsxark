@@ -2,74 +2,114 @@
   "products": [
     {
       "id": 1,
-      "title": "Dino T-Rex",
+      "title": "Harpon",
       "description": "Un depredador impresionante y feroz, ideal para conquistar territorios y enfrentarte a cualquier amenaza en Ark.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/harpoon-launcher.webp"
       }
     },
     {
       "id": 2,
-      "title": "Base Fortificada",
+      "title": "Latigo",
       "description": "Construye una base resistente y segura que protegerá tus recursos y dinos de los ataques más peligrosos.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/harpoon-launcher.webp"
       }
     },
     {
       "id": 3,
-      "title": "Montura para Argentavis",
+      "title": "Flak",
       "description": "Equipa a tu Argentavis con esta montura robusta para explorar las alturas y transportar grandes cargas.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/harpoon-launcher.webp"
       }
     },
     {
       "id": 4,
-      "title": "Armadura Tek Completa",
+      "title": "Rifle Fabi",
       "description": "La armadura más avanzada para resistir cualquier daño y explorar el entorno de manera eficiente.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/fabi.webp"
       }
     },
     {
       "id": 5,
-      "title": "Cañón de asedio",
+      "title": "Escopeta",
       "description": "Destruye estructuras enemigas y domina el campo de batalla con este poderoso cañón de asedio.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/fabi.webp"
       }
     },
     {
       "id": 6,
-      "title": "Espada Épica",
+      "title": "Tek Bow",
       "description": "Una espada de alta calidad que te ayudará a derrotar enemigos con estilo y eficacia.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/fabi.webp"
       }
     },
     {
       "id": 7,
-      "title": "Generador de Energía Tek",
+      "title": "Escudo Tek",
       "description": "Proporciona energía constante a tu base con esta avanzada tecnología Tek.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/escudo-tek.webp"
       }
     },
     {
       "id": 8,
-      "title": "Yate Motor",
+      "title": "Montura Rextek BP",
       "description": "Explora los océanos con velocidad y estilo a bordo de este yate bien equipado.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/montura-rex.webp"
       }
     },
     {
       "id": 9,
-      "title": "Estación de Cría Avanzada",
+      "title": "Tapejara Tek BP",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
       "image": {
-        "src": "/producto.jpeg"
+        "src": "/products/fabi.webp"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Desmo Saddle BP",
+      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "image": {
+        "src": "/products/fabi.webp"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Andrew Saddle BP",
+      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "image": {
+        "src": "/products/fabi.webp"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Boleadora",
+      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "image": {
+        "src": "/products/fabi.webp"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Flecha",
+      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "image": {
+        "src": "/products/fabi.webp"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Cama",
+      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "image": {
+        "src": "/products/fabi.webp"
       }
     }
   ]
