@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className='scroll-smooth'>
       <body className={`${geistSans.variable} ${geistMono.variable} font-geist-sans antialiased bg-gradient-to-br from-secondary from-60% to-violet-500`}>
-        <NextTopLoader color='#0D1117' />
+        <NextTopLoader color='#FFFFFF' />
         <header>
           <Header />
         </header>
