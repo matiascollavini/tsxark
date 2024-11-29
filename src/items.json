@@ -4,113 +4,155 @@
       "id": 1,
       "title": "Harpon",
       "description": "Un depredador impresionante y feroz, ideal para conquistar territorios y enfrentarte a cualquier amenaza en Ark.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/harpoon-launcher.webp"
-      }
+      },
+      "price": 2.5
     },
     {
       "id": 2,
       "title": "Latigo",
       "description": "Construye una base resistente y segura que protegerá tus recursos y dinos de los ataques más peligrosos.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/harpoon-launcher.webp"
-      }
+      },
+      "price": 2.5
     },
     {
       "id": 3,
       "title": "Flak",
       "description": "Equipa a tu Argentavis con esta montura robusta para explorar las alturas y transportar grandes cargas.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/harpoon-launcher.webp"
-      }
+      },
+      "price": 2
     },
     {
       "id": 4,
       "title": "Rifle Fabi",
       "description": "La armadura más avanzada para resistir cualquier daño y explorar el entorno de manera eficiente.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 2.5
     },
     {
       "id": 5,
       "title": "Escopeta",
       "description": "Destruye estructuras enemigas y domina el campo de batalla con este poderoso cañón de asedio.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 2.5
     },
     {
       "id": 6,
       "title": "Tek Bow",
       "description": "Una espada de alta calidad que te ayudará a derrotar enemigos con estilo y eficacia.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 2.5
     },
     {
       "id": 7,
       "title": "Escudo Tek",
       "description": "Proporciona energía constante a tu base con esta avanzada tecnología Tek.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/escudo-tek.webp"
-      }
+      },
+      "price": 2.5
     },
     {
       "id": 8,
       "title": "Montura Rextek BP",
       "description": "Explora los océanos con velocidad y estilo a bordo de este yate bien equipado.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
       "image": {
         "src": "/products/montura-rex.webp"
-      }
+      },
+      "price": 5
     },
     {
       "id": 9,
       "title": "Tapejara Tek BP",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 3
     },
     {
       "id": 10,
       "title": "Desmo Saddle BP",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 2
     },
     {
       "id": 11,
       "title": "Andrew Saddle BP",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 2
     },
     {
       "id": 12,
       "title": "Boleadora",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 1.5
     },
     {
       "id": 13,
       "title": "Flecha",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "category": "armas",
+      "categoryToShow": "Arma",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 1.5
     },
     {
       "id": 14,
       "title": "Cama",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
       "image": {
         "src": "/products/fabi.webp"
-      }
+      },
+      "price": 1.5
     }
   ]
 }

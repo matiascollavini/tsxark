@@ -6,7 +6,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 
-export default function CustomDialog ({ children, title, content, className } : { children: React.ReactNode, title: string, content: React.ReactElement, className?: string }) {
+export default function CustomDialog ({ children, title, content, className } : { children: React.ReactNode, title: string | React.ReactElement, content: React.ReactElement, className?: string }) {
   return (
     <Dialog>
       <DialogTrigger asChild>{children}</DialogTrigger>
