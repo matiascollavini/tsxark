@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/layout/header/header";
 import Footer from "@/components/layout/footer/footer";
+import NextTopLoader from "nextjs-toploader";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className='scroll-smooth'>
       <body className={`${geistSans.variable} ${geistMono.variable} font-geist-sans antialiased bg-gradient-to-br from-secondary from-60% to-violet-500`}>
+        <NextTopLoader color='#0D1117' />
         <header>
           <Header />
         </header>
