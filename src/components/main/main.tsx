@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card"
 
-export default function Main () {
+export default function Suscriptions () {
   const silverDesc = [
     { desc: <p><span className="font-semibold text-white">150</span> puntos cada <span className="font-semibold text-white">10</span></p> },
     { desc: <p><span className="font-semibold text-white">10k</span> puntos</p> },

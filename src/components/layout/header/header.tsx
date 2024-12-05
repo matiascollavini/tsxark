@@ -9,7 +9,7 @@ export default function Header () {
     { href: '/', title: 'Inicio' },
     { href: '/productos?categoria=armas', title: 'Armas' },
     { href: '/productos?categoria=armaduras', title: 'Armaduras' },
-    { href: '/productos?categoria=dinosaurios', title: 'Dinosaurios' },
+    { href: '/productos?categoria=objetos', title: 'Objetos' },
     { href: '/compras', title: 'Compras' }
   ]
 

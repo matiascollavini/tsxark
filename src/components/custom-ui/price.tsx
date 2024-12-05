@@ -7,7 +7,7 @@ const Price = ({ amount, currency } : { amount: number, currency: 'ARS' | 'USD' 
     currency = 'ARS'
   }
 
-  const formattedPrice = new Intl.NumberFormat('es-AR', { style: 'currency', currency, maximumFractionDigits: 0 }).format(amount)
+  const formattedPrice = new Intl.NumberFormat('es-AR', { style: 'currency', currency, maximumFractionDigits: 1 }).format(amount)
 
   return <span>{formattedPrice}</span>
 }

@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "Harpon",
+      "title": "BP Harpon",
       "description": "Un depredador impresionante y feroz, ideal para conquistar territorios y enfrentarte a cualquier amenaza en Ark.",
       "category": "armas",
       "categoryToShow": "Arma",
@@ -13,29 +13,18 @@
     },
     {
       "id": 2,
-      "title": "Latigo",
+      "title": "BP Latigo",
       "description": "Construye una base resistente y segura que protegerá tus recursos y dinos de los ataques más peligrosos.",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
-        "src": "/products/harpoon-launcher.webp"
+        "src": "/products/latigo.webp"
       },
       "price": 2.5
     },
     {
-      "id": 3,
-      "title": "Flak",
-      "description": "Equipa a tu Argentavis con esta montura robusta para explorar las alturas y transportar grandes cargas.",
-      "category": "armas",
-      "categoryToShow": "Arma",
-      "image": {
-        "src": "/products/harpoon-launcher.webp"
-      },
-      "price": 2
-    },
-    {
       "id": 4,
-      "title": "Rifle Fabi",
+      "title": "BP Rifle Fabi",
       "description": "La armadura más avanzada para resistir cualquier daño y explorar el entorno de manera eficiente.",
       "category": "armas",
       "categoryToShow": "Arma",
@@ -46,32 +35,32 @@
     },
     {
       "id": 5,
-      "title": "Escopeta",
+      "title": "BP Escopeta",
       "description": "Destruye estructuras enemigas y domina el campo de batalla con este poderoso cañón de asedio.",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/shotgun.webp"
       },
       "price": 2.5
     },
     {
       "id": 6,
-      "title": "Tek Bow",
+      "title": "BP Tek Bow",
       "description": "Una espada de alta calidad que te ayudará a derrotar enemigos con estilo y eficacia.",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/arco-tek.webp"
       },
       "price": 2.5
     },
     {
       "id": 7,
-      "title": "Escudo Tek",
+      "title": "BP Escudo Tek",
       "description": "Proporciona energía constante a tu base con esta avanzada tecnología Tek.",
-      "category": "armas",
-      "categoryToShow": "Arma",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
       "image": {
         "src": "/products/escudo-tek.webp"
       },
@@ -79,7 +68,7 @@
     },
     {
       "id": 8,
-      "title": "Montura Rextek BP",
+      "title": "BP Montura Rex Tek",
       "description": "Explora los océanos con velocidad y estilo a bordo de este yate bien equipado.",
       "category": "armaduras",
       "categoryToShow": "Armadura",
@@ -90,69 +79,184 @@
     },
     {
       "id": 9,
-      "title": "Tapejara Tek BP",
+      "title": "BP Tapejara Tek",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/tapejara-tek.webp"
       },
       "price": 3
     },
     {
       "id": 10,
-      "title": "Desmo Saddle BP",
+      "title": "BP Desmo Saddle",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/murcielago.webp"
       },
       "price": 2
     },
     {
       "id": 11,
-      "title": "Andrew Saddle BP",
+      "title": "BP Andrew Saddle",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/saddle.webp"
       },
       "price": 2
     },
     {
       "id": 12,
-      "title": "Boleadora",
+      "title": "BP Boleadora",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
-      "category": "armas",
-      "categoryToShow": "Arma",
+      "category": "objetos",
+      "categoryToShow": "Objeto",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/boleadora.webp"
       },
       "price": 1.5
     },
     {
       "id": 13,
-      "title": "Flecha",
+      "title": "BP Flecha",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
-      "category": "armas",
-      "categoryToShow": "Arma",
+      "category": "objetos",
+      "categoryToShow": "Objeto",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/flecha.webp"
       },
       "price": 1.5
     },
     {
       "id": 14,
-      "title": "Cama",
+      "title": "BP Cama",
       "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "category": "objetos",
+      "categoryToShow": "Objeto",
+      "image": {
+        "src": "/products/cama.webp"
+      },
+      "price": 1.5
+    },
+    {
+      "id": 15,
+      "title": "BP Casco",
+      "description": "Protege tu cabeza de cualquier ataque con este casco resistente.",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
-        "src": "/products/fabi.webp"
+        "src": "/products/casco.webp"
       },
-      "price": 1.5
+      "price": 2
+    },
+    {
+      "id": 16,
+      "title": "BP Pechera",
+      "description": "Proporciona una protección avanzada para el torso en tus aventuras.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/pechera.webp"
+      },
+      "price": 2
+    },
+    {
+      "id": 17,
+      "title": "BP Pantalon",
+      "description": "Ideal para mantenerte protegido mientras exploras el mundo de Ark.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/perneras.webp"
+      },
+      "price": 2
+    },
+    {
+      "id": 18,
+      "title": "BP Botas",
+      "description": "Asegura tus pies con estas botas duraderas y de gran calidad.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/botas.webp"
+      },
+      "price": 2
+    },
+    {
+      "id": 19,
+      "title": "BP Guantes",
+      "description": "Protege tus manos mientras realizas tareas importantes.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/guantes.webp"
+      },
+      "price": 2
+    },
+    {
+      "id": 20,
+      "title": "BP Casco TEK",
+      "quantity": 3,
+      "description": "Casco avanzado con tecnología TEK para máxima protección y visión mejorada.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/casco-tek.webp"
+      },
+      "price": 3
+    },
+    {
+      "id": 21,
+      "title": "BP Pechera TEK",
+      "quantity": 3,
+      "description": "Pechera equipada con tecnología TEK para un equilibrio perfecto entre protección y movilidad.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/pechera-tek.webp"
+      },
+      "price": 3
+    },
+    {
+      "id": 22,
+      "title": "BP Pantalon TEK",
+      "quantity": 3,
+      "description": "Pantalón avanzado TEK diseñado para ofrecer resistencia y funcionalidad en cualquier entorno.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/pantalones-tek.webp"
+      },
+      "price": 3
+    },
+    {
+      "id": 23,
+      "title": "BP Botas TEK",
+      "quantity": 3,
+      "description": "Botas TEK que ofrecen soporte y protección con tecnología de última generación.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/botas-tek.webp"
+      },
+      "price": 3
+    },
+    {
+      "id": 24,
+      "title": "BP Guantes TEK",
+      "quantity": 3,
+      "description": "Guantes TEK que combinan comodidad y defensa para cualquier tarea.",
+      "category": "armaduras",
+      "categoryToShow": "Armadura",
+      "image": {
+        "src": "/products/guantes-tek.webp"
+      },
+      "price": 3
     }
   ]
 }

@@ -50,10 +50,10 @@ export function NavLinksMobileButton ({ links } : { links: any }) {
       >
         <Menu className='h-6 w-6' />
       </button>
-      {navLinkOpen && <div className='fixed inset-0 top-16 bg-black/50 z-40' onClick={() => setNavLinkOpen(false)} />}
+      {navLinkOpen && <div className='fixed inset-0 top-0 bg-black/50 z-40' onClick={() => setNavLinkOpen(false)} />}
       <div
         ref={navLinkRef}
-        className={`bg-secondary p-5 transition-all duration-300 ease-in-out absolute top-16 -left-4 min-w-[300px] min-h-screen ${navLinkOpen ? 'translate-x-0' : '-translate-x-full'} overflow-y-auto z-50`}
+        className={`bg-secondary p-5 transition-all duration-300 ease-in-out absolute top-28 -left-4 min-w-[300px] min-h-screen ${navLinkOpen ? 'translate-x-0' : '-translate-x-full'} overflow-y-auto z-50`}
       >
         <div className='h-full w-full flex flex-col justify-start items-start divide-y'>
           {links.map((link: any) => (
