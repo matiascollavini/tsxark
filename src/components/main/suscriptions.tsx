@@ -28,7 +28,7 @@ export default function Suscriptions ({ suscriptions } : { suscriptions: Suscrip
 
 function BillingCard ({ title, titleToCopy, description, price, titleClassName, buttonMessage } : { title: string, titleToCopy: string, description: { desc: React.ReactElement }[], price: number, titleClassName?: string, buttonMessage?: string }) {
   const [messageCopied, setMessageCopied] = useState<boolean>(false)
-  const messageToCopy = `Hola! Quiero comprar:\n${titleToCopy}\n\n----------------------------------\nTOTAL: US$ ${price}`
+  const messageToCopy = `Hola! Quiero comprar ${titleToCopy}\n\n----------------------------------\nTOTAL: US$ ${price}`
   const handleCopyMessage = async () => {
     await navigator.clipboard.writeText(messageToCopy)
     setMessageCopied(true)

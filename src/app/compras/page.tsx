@@ -13,7 +13,7 @@ export default function Page () {
   const suscriptions = [
     {
       title: 'Silver',
-      titleToCopy: 'la suscripción *Silver*',
+      titleToCopy: 'la suscripción:\n *Silver*',
       price: 5,
       color: 'gray',
       buttonMessage: 'Suscribirse',
@@ -25,7 +25,7 @@ export default function Page () {
     ]},
     {
       title: 'Gold',
-      titleToCopy: 'la suscripción *Gold*',
+      titleToCopy: 'la suscripción:\n *Gold*',
       price: 15,
       color: 'yellow',
       buttonMessage: 'Suscribirse',
@@ -37,7 +37,7 @@ export default function Page () {
     ]},
     { 
       title: 'Platinum',
-      titleToCopy: 'la suscripción *Platinum*',
+      titleToCopy: 'la suscripción:\n *Platinum*',
       price: 30,
       color: 'blue',
       buttonMessage: 'Suscribirse',
@@ -53,7 +53,7 @@ export default function Page () {
   const buys = [
     {
       title: 'All bosses',
-      titleToCopy: 'el paquete *All bosses*',
+      titleToCopy: 'el paquete:\n *All bosses*',
       price: 10,
       buttonMessage: 'Comprar',
       description: [
@@ -62,7 +62,7 @@ export default function Page () {
     },
     {
       title: 'All ascensiones + Notas the island / Fjordur',
-      titleToCopy: 'el paquete *All ascensiones + Notas the island / Fjordur*',
+      titleToCopy: 'el paquete:\n *All ascensiones + Notas the island / Fjordur*',
       price: 20,
       buttonMessage: 'Comprar',
       description: [
