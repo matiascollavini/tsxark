@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "BP Harpon",
-      "description": "Un depredador impresionante y feroz, ideal para conquistar territorios y enfrentarte a cualquier amenaza en Ark.",
+      "description": "Se otorga al comprador un Blueprint de harpon \"calidad = gris\".",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "title": "BP Latigo",
-      "description": "Construye una base resistente y segura que protegerá tus recursos y dinos de los ataques más peligrosos.",
+      "description": "Se otorga al comprador un Blueprint de Latigo \"calidad = gris\".",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
@@ -25,7 +25,7 @@
     {
       "id": 4,
       "title": "BP Rifle Fabi",
-      "description": "La armadura más avanzada para resistir cualquier daño y explorar el entorno de manera eficiente.",
+      "description": "Se otorga al comprador un Blueprint de Fabricated Sniper \"calidad = gris\".",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
@@ -36,7 +36,7 @@
     {
       "id": 5,
       "title": "BP Escopeta",
-      "description": "Destruye estructuras enemigas y domina el campo de batalla con este poderoso cañón de asedio.",
+      "description": "Se otorga al comprador un Blueprint de Escopeta \"calidad = gris\".",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
@@ -47,7 +47,7 @@
     {
       "id": 6,
       "title": "BP Tek Bow",
-      "description": "Una espada de alta calidad que te ayudará a derrotar enemigos con estilo y eficacia.",
+      "description": "Se otorga al comprador un Blueprint de Arco Tek \"calidad = gris\".",
       "category": "armas",
       "categoryToShow": "Arma",
       "image": {
@@ -58,7 +58,7 @@
     {
       "id": 7,
       "title": "BP Escudo Tek",
-      "description": "Proporciona energía constante a tu base con esta avanzada tecnología Tek.",
+      "description": "Se otorga al comprador tres Blueprints de Escudo Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -69,7 +69,7 @@
     {
       "id": 8,
       "title": "BP Montura Rex Tek",
-      "description": "Explora los océanos con velocidad y estilo a bordo de este yate bien equipado.",
+      "description": "Se otorga al comprador un Blueprint de la Montura de Rex Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -80,7 +80,7 @@
     {
       "id": 9,
       "title": "BP Tapejara Tek",
-      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "description": "Se otorga al comprador un Blueprint de la Montura de Tapejara Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -91,7 +91,7 @@
     {
       "id": 10,
       "title": "BP Desmo Saddle",
-      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "description": "Se otorga al comprador un Blueprint de la Montura del Desmodus \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -102,7 +102,7 @@
     {
       "id": 11,
       "title": "BP Andrew Saddle",
-      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "description": "Se otorga al comprador un Blueprint de la Montura del Andrewsarchus \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -113,7 +113,7 @@
     {
       "id": 12,
       "title": "BP Boleadora",
-      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "description": "Se otorga al comprador un Blueprint de Boleadora \"calidad = gris\".",
       "category": "objetos",
       "categoryToShow": "Objeto",
       "image": {
@@ -124,7 +124,7 @@
     {
       "id": 13,
       "title": "BP Flecha",
-      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "description": "Se otorga al comprador un Blueprint de Flecha \"calidad = gris\"",
       "category": "objetos",
       "categoryToShow": "Objeto",
       "image": {
@@ -135,7 +135,7 @@
     {
       "id": 14,
       "title": "BP Cama",
-      "description": "Optimiza la crianza de tus dinos con esta estación que acelera su crecimiento y mejora las estadísticas.",
+      "description": "Se otorga al comprador un Blueprint de Cama \"calidad = gris\".",
       "category": "objetos",
       "categoryToShow": "Objeto",
       "image": {
@@ -146,7 +146,7 @@
     {
       "id": 15,
       "title": "BP Casco",
-      "description": "Protege tu cabeza de cualquier ataque con este casco resistente.",
+      "description": "Se otorga al comprador un Blueprint de Casco de metal \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -157,7 +157,7 @@
     {
       "id": 16,
       "title": "BP Pechera",
-      "description": "Proporciona una protección avanzada para el torso en tus aventuras.",
+      "description": "Se otorga al comprador un Blueprint de Pechera de metal \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -168,7 +168,7 @@
     {
       "id": 17,
       "title": "BP Pantalon",
-      "description": "Ideal para mantenerte protegido mientras exploras el mundo de Ark.",
+      "description": "Se otorga al comprador un Blueprint de Pantalones de metal \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -179,7 +179,7 @@
     {
       "id": 18,
       "title": "BP Botas",
-      "description": "Asegura tus pies con estas botas duraderas y de gran calidad.",
+      "description": "Se otorga al comprador un Blueprint de Botas de metal \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -190,7 +190,7 @@
     {
       "id": 19,
       "title": "BP Guantes",
-      "description": "Protege tus manos mientras realizas tareas importantes.",
+      "description": "Se otorga al comprador un Blueprint de Guantes de metal \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -202,7 +202,7 @@
       "id": 20,
       "title": "BP Casco TEK",
       "quantity": 3,
-      "description": "Casco avanzado con tecnología TEK para máxima protección y visión mejorada.",
+      "description": "Se otorga al comprador tres Blueprints de Casco Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -214,7 +214,7 @@
       "id": 21,
       "title": "BP Pechera TEK",
       "quantity": 3,
-      "description": "Pechera equipada con tecnología TEK para un equilibrio perfecto entre protección y movilidad.",
+      "description": "Se otorga al comprador tres Blueprints de Pechera Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -226,7 +226,7 @@
       "id": 22,
       "title": "BP Pantalon TEK",
       "quantity": 3,
-      "description": "Pantalón avanzado TEK diseñado para ofrecer resistencia y funcionalidad en cualquier entorno.",
+      "description": "Se otorga al comprador tres Blueprints de Pantalon Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -238,7 +238,7 @@
       "id": 23,
       "title": "BP Botas TEK",
       "quantity": 3,
-      "description": "Botas TEK que ofrecen soporte y protección con tecnología de última generación.",
+      "description": "Se otorga al comprador tres Blueprints de Botas Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {
@@ -250,7 +250,7 @@
       "id": 24,
       "title": "BP Guantes TEK",
       "quantity": 3,
-      "description": "Guantes TEK que combinan comodidad y defensa para cualquier tarea.",
+      "description": "Se otorga al comprador tres Blueprints de Guantes Tek \"calidad = gris\".",
       "category": "armaduras",
       "categoryToShow": "Armadura",
       "image": {

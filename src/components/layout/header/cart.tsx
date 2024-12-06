@@ -98,7 +98,7 @@ export function CartButton () {
         {cartOpen && <div className='fixed inset-0 top-0 bg-black/50 z-40' onClick={() => setCartOpen(false)} />}
       <div
         ref={cartRef}
-        className={`bg-secondary p-5 transition-all duration-300 ease-in-out absolute top-28 -right-4 lg:min-w-[600px] min-h-screen ${cartOpen ? 'translate-x-0' : 'translate-x-full'} overflow-y-auto z-50`}
+        className={`bg-secondary p-5 transition-all duration-300 ease-in-out absolute top-28 -right-4 lg:min-w-[600px] overflow-y-auto h-[calc(100vh-112px)] ${cartOpen ? 'translate-x-0' : 'translate-x-full'} overflow-y-auto z-50`}
       >
         <div className='h-full w-full flex flex-col justify-start items-start divide-y'>
           <div className='w-full flex items-center justify-between py-2'>
@@ -132,7 +132,7 @@ export function CartButton () {
             </div>
             }
             {storageCartList.length > 0 &&
-            <Link className='px-2' onClick={() => setCartOpen(false)} href={'/carrito'}>
+            <Link className='px-2 pb-4' onClick={() => setCartOpen(false)} href={'/carrito'}>
               <button className='w-full bg-white transition hover:opacity-80 rounded-lg font-semibold p-4 uppercase text-center text-black'>Iniciar compra</button>
             </Link>}
           </div>

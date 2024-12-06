@@ -10,7 +10,7 @@ import { useState } from "react";
 
 export default function ProductCard ({ product } : { product: Products }) {
   return (
-    <div onClick={() => console.log(product)} key={product.id} className="cursor-pointer group relative overflow-hidden rounded">
+    <div key={product.id} className="cursor-pointer group relative overflow-hidden rounded">
       <CustomDialog className="md:min-w-[800px]" content={<Content  product={product}/>} title={<div className="flex items-center gap-2"><h1>{product.title}</h1><Badge className="text-black">{product.categoryToShow}</Badge></div>}>
         <div className="aspect-square">
           <Image
