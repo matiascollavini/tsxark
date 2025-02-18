@@ -4,6 +4,7 @@ import "./globals.css"
 import Header from "@/components/layout/header/header"
 import Footer from "@/components/layout/footer/footer"
 import NextTopLoader from "nextjs-toploader"
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,6 +36,7 @@ export default function RootLayout({
         </header>
         <main>
           {children}
+          <Analytics />
         </main>
         <footer>
           <Footer />
